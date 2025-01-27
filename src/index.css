@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.List {
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.ListItem {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.ListItemOdd {
+  background-color: #f9f9f9;
+}
+
+.ListItemEven {
+  background-color: #fff;
+}
+
+.Loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
